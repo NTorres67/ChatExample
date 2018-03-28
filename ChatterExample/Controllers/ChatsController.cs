@@ -25,9 +25,8 @@ namespace ChatterExample.Controllers
         {
             string jsonTest = "{ \"firstName\": \"Bob\", \"lastName\": \"Sauce\", \"children\": [{\"firstName\": \"Barbie\", \"age\": 19 }, {\"firstName\": \"Ron\", \"age\": null }] }";
 
-                return Json(jsonTest, JsonRequestBehavior.AllowGet);
-
-            }
+            return Json(jsonTest, JsonRequestBehavior.AllowGet);
+        }
 
             // GET: Chats/Details/5
             public ActionResult Details(int? id)
