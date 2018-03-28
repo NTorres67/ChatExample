@@ -51,8 +51,8 @@ namespace ChatterExample
             //    clientSecret: "");
 
             //app.UseTwitterAuthentication(
-            //   consumerKey: "",
-            //   consumerSecret: "");
+            //   consumerKey: "873765559461-ptp0dc38hdsjhjbd7iml3vqltc7udlk4.apps.googleusercontent.com",
+            //   consumerSecret: "axhhKgu7uCR12ZL3M-LW1bDP");
 
             //app.UseFacebookAuthentication(
             //   appId: "",
