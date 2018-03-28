@@ -60,8 +60,8 @@ namespace ChatterExample
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "873765559461-pfni973cjig34lm73rjg5r8h9m14j4at.apps.googleusercontent.com",
-                ClientSecret = "_amMgMG5owUUh-E-eVnkO0g8"
+                ClientId = "873765559461-a63thhj65evp5irmvi0n24vpi57h5l1g.apps.googleusercontent.com",
+                ClientSecret = "1_TllSHRcyUYVe6L7WqwQ830"
             });
         }
     }
