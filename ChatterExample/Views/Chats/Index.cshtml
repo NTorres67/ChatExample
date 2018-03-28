@@ -15,7 +15,20 @@
 
 @section Scripts {
     <script>
-        alert("Hello World!");
+        //alert("Hello World!");
+
+        ////JSON ... JavaScript object
+        //var jsonTest = { "Id": 1, "UserId": 1, "Message": "Hello World" };
+        ////now some Jquery
+        //$("#response").text(jsonTest.Message);
+
+        var jsonTest = { "firstName": "Bob", "lastName": "Sauce", "children": [{ "firstName": "Barbie", "age": 19 }, { "firstName": "Ron", "age": 21 }] }
+
+
+        //now some jquery Note: Only use one #response at a time
+        //$("#response").text(jsonTest.children[1].firstName);
+        $("#response").text(jsonTest.children[1].age);
+       
     </script>
     }
 
